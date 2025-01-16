@@ -1,0 +1,23 @@
+.banner{
+    background: linear-gradient(rgba(5, 7, 12, 0.4), rgba(5, 7, 12, 0.4)), url(/src/assets/pf1.jpg) no-repeat center;;
+    background-size: cover;
+}
+
+.cardDer{
+    background-image: url(/src/assets/pf1.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+.cardIz{
+    background-image: url(/src/assets/pf3.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+.cardCen{
+    background-image: url(/src/assets/pf2.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
