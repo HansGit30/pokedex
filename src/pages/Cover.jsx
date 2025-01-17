@@ -2,6 +2,7 @@
 import "./Cover.css"
 import Logo from "../assets/LogoPokemon.png"
 import Pokeball from "../assets/Pokebola-pokeball-png-0-removebg-preview.png"
+import { Link } from "react-router-dom"
 
 const Cover = () => {
     return (
@@ -23,8 +24,10 @@ const Cover = () => {
                 <h1 className="text-4xl mb-3">¡Atrápalos a todos!</h1>
                 <p className="px-4 mb-3">Explora, aprende y encuentra a tus Pokémon favoritos en un solo lugar.</p>
                 <button className="relative w-[200px] h-[50px] bg-white rounded-xl text-black">
-                    <img className="absolute top-2 left-2 w-9" src={Pokeball} alt="" />
-                    GO!
+                    <Link to="/pokedex/inicio">
+                        <img className="absolute top-2 left-2 w-9" src={Pokeball} alt="" />
+                        GO!
+                    </Link>
                 </button>
             </section>
         </div>

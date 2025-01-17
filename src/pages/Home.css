@@ -1,0 +1,5 @@
+.fondoBanner{
+    background-image: url(/src/assets/card-inicio-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
