@@ -9,9 +9,16 @@ const Home = () => {
         <img className="w-[120px]" src={Logo} alt="" />
         <img className="w-10" src={Pokeball} alt="" />
       </header>
-      <article className="w-full h-[220px] bg-slate-500 flex items-center justify-center">
+      <article className="w-full h-[220px] flex items-center justify-center">
         <div className="w-[90%] h-[90%] rounded-2xl fondoBanner"></div>
       </article>
+      <aside className="w-full h-[70px] bg-slate-900 pl-4 flex items-center">
+        <div className="w-[80px] h-10 rounded-3xl bg-slate-400"></div>
+      </aside>
+      <section className="w-full">
+        <div className="w-[45%] h-[300px] bg-slate-500 rounded-2xl"></div>
+        <div className="w-[45%] h-[300px] bg-slate-500 rounded-2xl"></div>
+      </section>
     </div>
   )
 }
