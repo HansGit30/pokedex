@@ -13,11 +13,11 @@ const Home = () => {
         <div className="w-[90%] h-[90%] rounded-2xl fondoBanner"></div>
       </article>
       <aside className="w-full h-[70px] bg-slate-900 pl-4 flex items-center">
-        <div className="w-[80px] h-10 rounded-3xl bg-slate-400"></div>
+        <div className="w-[80px] h-10 rounded-3xl bg-slate-400 flex items-center justify-center">Todos</div>
       </aside>
-      <section className="w-full">
-        <div className="w-[45%] h-[300px] bg-slate-500 rounded-2xl"></div>
-        <div className="w-[45%] h-[300px] bg-slate-500 rounded-2xl"></div>
+      <section className="w-full grid grid-cols-2 gap-4 p-4">
+        <div className="h-[250px] bg-slate-500 rounded-2xl"></div>
+        <div className="h-[250px] bg-slate-500 rounded-2xl"></div>
       </section>
     </div>
   )
